@@ -4,17 +4,6 @@ use anchor_spl::{
     token::{Mint, Token, TokenAccount},
 };
 
-use streamflow_sdk;
-use streamflow_sdk::cpi::accounts::{
-    Create as CpiCreate,
-    CreateUnchecked as CpiCreateUnchecked,
-    Update as CpiUpdate,
-    Withdraw as CpiWithdraw,
-    Topup as CpiTopup,
-    Transfer as CpiTransfer,
-    Cancel as CpiCancel,
-};
-
 declare_id!("FGjLaVo5zLGdzCxMo9gu9tXr1kzTToKd8C8K7YS5hNM1");
 
 /*
